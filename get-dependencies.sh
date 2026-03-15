@@ -21,4 +21,8 @@ get-debloated-pkgs --add-common --prefer-nano
 #make-aur-package PACKAGENAME
 
 # If the application needs to be manually built that has to be done down here
+echo "Getting app..."
+echo "---------------------------------------------------------------"
+wget https://rvgl.org/downloads/rvgl_launcher_linux.zip
 
+mkdir -p ./AppDir/bin
