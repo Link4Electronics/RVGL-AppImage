@@ -26,3 +26,5 @@ echo "---------------------------------------------------------------"
 wget https://rvgl.org/downloads/rvgl_launcher_linux.zip
 
 mkdir -p ./AppDir/bin
+tar -xvf rvg_launcher_linux.zip -C ./AppDir/bin
+rm -rf ./AppDir/bin/icons
