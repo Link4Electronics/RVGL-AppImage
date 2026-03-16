@@ -10,7 +10,6 @@ pacman -Syu --noconfirm \
     enet             \
     gtk3             \
     libdecor         \
-    libunistring     \
     openal           \
     python           \
     python-packaging \
