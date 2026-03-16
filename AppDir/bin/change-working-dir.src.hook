@@ -1,0 +1,4 @@
+#!/bin/false
+dir=${XDG_DATA_HOME:-~/.local/share}/rvmm
+mkdir -p "$dir"/packs/rvgl_linux
+ln -sf 
