@@ -1,4 +1,6 @@
 #!/bin/false
+ARCH=$(uname -m)
+
 dir=${XDG_DATA_HOME:-~/.local/share}/rvmm
 mkdir -p "$dir"/packs/rvgl_linux
 case "$ARCH" in # they use 64 and arm64
