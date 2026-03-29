@@ -10,7 +10,6 @@ pacman -Syu --noconfirm \
     7zip             \
     enet             \
     fluidsynth       \
-    gtk3             \
     libdecor         \
     openal           \
     python           \
