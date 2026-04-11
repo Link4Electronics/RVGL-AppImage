@@ -1,4 +1,4 @@
-#!/bin/false
+#!/bin/sh
 dir=${XDG_DATA_HOME:-~/.local/share}/rvmm
 mkdir -p "$dir"/packs/rvgl_linux
 case "$APPIMAGE_ARCH" in # they use 64 and arm64
